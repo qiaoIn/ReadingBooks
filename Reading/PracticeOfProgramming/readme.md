@@ -1,0 +1,7 @@
+# 一些闲话
+
+很早以前就知道有这本书了，一直没有机会找来看，当然这只能说明自己比较懒，现在终于有了空闲和心情，遂找来看看，<The Practice of Programming>，中文译名为《程序设计实践》，在这里，记录下自己看这本书，以及一些心得体会。
+
+> This book is about the practice of programming -- how to write programs for real
+
+ 
