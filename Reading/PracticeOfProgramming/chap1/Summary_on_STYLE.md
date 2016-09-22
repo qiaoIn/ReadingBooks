@@ -27,7 +27,7 @@
    * initial **captital** letters for *Globals*;
    * **all** captital for *CONSTANTS*.
 
-   > Programmers are often encouraged to use long variable names regardless of context. That is a mistake: clarity(清晰) is often achieved through brevity(简洁).
+   > Programmers are often encouraged to use long variable names regardless of context. That is a mistake: **clarity(清晰) is often achieved through brevity(简洁)**.
 
 2. 保持一致性（ **Be consistent** ）
 
@@ -62,6 +62,8 @@
 
 1. 缩进显示（**Indent to show structure**）
 
+   缩进显示能够让代码更容易阅读，当然，对于`Python`，缩进就是它的全部了。
+
 2. 采用表达式的正常写法（**Use the natural form for expressions**）
 
    例如，条件表达式包含“取非”操作是难让人理解的。
@@ -90,7 +92,7 @@
    subkey = subkey >> (bitoff - ((bitoff >> 3) << 3));
    ```
 
-   重写为：
+   取`bitoff`二进制表示的最低三位，可以重写为：
 
    ```java
    subkey >>= bitoff & 0x7;
@@ -108,13 +110,43 @@
 
    `i`的初始值为3，这个数组的索引为3的位置的值可能会被设置为3或者4。
 
+   实际写代码编译的情况是：
+
+   ```c
+   #include <stdio.h>
+
+   int main() {
+       int array[10];
+       int i;
+       for (i = 0; i < 10; i++) {
+           array[i] = 0;
+       }
+       for (i = 0; i < 10; ) {
+           array[i++] = i;
+       }
+       for (i = 0; i < 10; i++) {
+           printf("%d\t", array[i]);
+       }
+
+       return 0;
+   }
+   ```
+
+   我的配置是：
+
+   > 系统：OS X EI Capitan，版本 10.11.6
+
+   > gcc --version: Apple LLVM version 7.3.0 (clang-703.0.31)
+
+   使用`gcc hello.c -o hello`编译的结果是给了一个`warning: unsequenced modification and access to 'i'`，运行结果如下：`0    1    2   3   4   5   6   7   8   9`，运行结果正确。因此推断`array[i++] = i;`的处理是`array[i] = i; i++;`。
+
    > It's not just increments and decrements that have side effects; I/O is another source of behind-the-scenes action.
 
    ```c
    scanf("%d %d", &yr, &profit[yr]);
    ```
 
-   以上代码段，前一部分是接受标准输入给`yr`赋值，后一部分是使用这个得到的值访问数组，给数组的某个元素赋值。“*all the arguments to **scanf** are evaluated before the routine is called, so `&profit[yr]` will always be evaluated using the old value of yr.*”因此我们将这个语句拆分开：
+   以上代码段，前一部分是接受标准输入给`yr`赋值，后一部分是使用这个得到的值访问数组，给数组的某个元素赋值。“* all the arguments to scanf are evaluated before the routine is called, so `&profit[yr]` will always be evaluated using the old value of yr. *”因此我们将这个语句拆分开：
 
    ```c
    scanf("%d", &yr);
