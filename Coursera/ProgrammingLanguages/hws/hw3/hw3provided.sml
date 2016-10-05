@@ -35,9 +35,9 @@ fun longest_string_helper f xs =
       xs;
 
 val longest_string3 = longest_string_helper
-                          (fn (x, y) => if x > y then true else false);
+                          (fn (x, y) => x > y);
 val longest_string4 = longest_string_helper
-                          (fn (x, y) => if x >= y then true else false);
+                          (fn (x, y) => x >= y);
 val d = longest_string3 xs;
 val e = longest_string4 xs;
 
@@ -64,7 +64,16 @@ fun all_answers f xs =
                          NONE => helper f xs' acc
                        | SOME v => helper f xs' (acc@v)
   in
-      SOME(helper f xs [])
+      case xs of
+          [] => SOME []
+        | _  => (* xs is not empty *)
+          let
+              val result = helper f xs []
+          in
+              case result of
+                  [] => NONE
+                | _  => SOME result
+          end
   end;
 
 datatype pattern = WildcardP
@@ -107,9 +116,9 @@ fun check_pat p =
         case ps of
             VariableP x => x::[]
           | ConstructorP(_, ps') => pattern_to_list ps'
-          | TupleP ps' => List.foldl (fn (p, i) => (i @ pattern_to_list(p)))
-                                                    []
-                                                    ps'
+          | TupleP ps' => List.foldl (fn (p', i) => (i @ pattern_to_list(p')))
+                                    []
+                                    ps'
           | _ => []
       fun is_repeat xs =
         case xs of
@@ -117,6 +126,11 @@ fun check_pat p =
           | x::xs' => if List.exists (fn s => s=x) xs'
                      then true
                      else is_repeat xs'
+                     (*
+                     检查一个列表中是否有重复元素：每次检查第一个元素是否在剩余元素中有重复
+                     1. 如果其在剩余元素中出现过，返回True;
+                     2. 如果未出现，那在接下来的比较中，可以仅比较剩余列表中是否有重复元素
+                     *)
   in
       not((is_repeat o pattern_to_list) p)
   end;
@@ -178,7 +192,8 @@ fun first_match (value, ps) =
                        (List.foldl
                             (fn (p, acc) => (value, p)::acc)
                             []
-                            ps)) handle NoAnswer =>
+                            ps)
+                   ) handle NoAnswer =>
                                         (print "exception occur\n"; [])
   in
       case result of
@@ -188,6 +203,7 @@ fun first_match (value, ps) =
 
 val p_list = [a, b, d, e, g];
 val test_first = first_match (Constant 12, p_list);
+val test_variable = first_match (Constructor("world", Constant 12), p_list);
 
 val p_list_2 = [UnitP, UnitP, ConstantP 12];
 val pair_list = (List.foldl
