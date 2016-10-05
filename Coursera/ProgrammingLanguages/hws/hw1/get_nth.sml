@@ -4,8 +4,9 @@ fun get_nth (xs, n) =
         (* 'a list -> 'a *)
         case xs of
           x::xs' => if n=counter
-                     then x
+                   then x
                    else get_nth_iter (xs', n, counter+1)
+         | [] => raise List.Empty
           (* in this position,  *)
   in
       get_nth_iter (xs, n, 1)
