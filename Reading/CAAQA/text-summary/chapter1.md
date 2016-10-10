@@ -5,7 +5,7 @@
 
 > This text is about the architecture ideas and accompanying compiler improvements that made the incredible growth rate possible in the last century, the reasons for the dramatic change, and the challenges and initial promising approaches to architecture ideas, compilers, and interpreters for the 21st century. At the core is a quantitative approach to computer design and analysis that uses empirical observersions of programs, experimentation, and simulation as its tools.
 
-![growth_in_processor_performance](http://7xrxoi.com1.z0.glb.clouddn.com/growth_in_processor_performance.png)
+![growth_in_processor_performance](../images/growth_in_processor_performance.png)
 
 The figure above shows that the combination of architectural and organizational enhancements led to 17 years of sustained growth in performance at an annual rate of over 50% from 1986 to 2003. And the effect of this dramatic growth rate has been fourfold.
 
@@ -129,7 +129,7 @@ Five rapid changes in implementation technology:
 ### Performance Trends: Bandwidth over Latency
 
 - *bandwidth* or *throughput* is the total amount of work done in a given time;
-- latency or response time is the time between the start and the completion of an event;
+- *latency* or *response time* is the time between the start and the completion of an event;
 - bandwidth has outpaced latency across these technologies and will likely continue to do so.
 
 ### Scaling of Transistor Performance and Wires
@@ -234,7 +234,7 @@ Introduce important observations about design, as well as two equations to evalu
 
 ### Focus on the Common Case
 
-  - inn making a design trade-off, favor the frequent case over the infrequent case;
+  - in making a design trade-off, favor the frequent case over the infrequent case;
   - the common case works for power as well as for resource allocation and performance;
   - the frequent case is often simpler and can be done faster than the infrequent case.
 
@@ -262,9 +262,9 @@ Introduce important observations about design, as well as two equations to evalu
   - IC (instruction count) -- the number of instructions executed, 执行的指令数目;
   - CPI (clock cycles per instruction) -- the average number of clock cycles per instruction, 平均执行一条指令所用的始终周期数.
 
-  - 
+  - for each individual instruction:
 
-  ![CPU time](http://7xrxoi.com1.z0.glb.clouddn.com/cpu_time.png)
+  ![CPU time](../images/cpu_time.png)
 
 ## Putting It All Together: Performance, Price, and Power
 
