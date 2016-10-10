@@ -205,8 +205,85 @@ From the viewpoint of a system designer, there are three primary concerns about 
 
 ## Quantitative Principles of Computer Design
 
+Introduce important observations about design, as well as two equations to evaluate alternatives.
+
+### Take Advantage of Parallelism
+
+- at the system level
+
+  data-level parallelism, request-level parallelism, thread-level parallelism
+
+- at the level of an individual processor
+
+  instruction-level parallelism, eg. pipelining
+
+- at the level of detailed digital design
+
+  data-level parallelism, eg. set-associative caches (组相联缓存), modern ALUs use carry-lookhead (先行进位)
+
+### Priciple of Locality
+
+  *principle of locality*: programs tend to reuse data and instructions they have used recently (程序常常重复使用它们最近刚用过的数据和指令)
+
+  - We can predict with reasonable accuracy what instructions and data a program will use in the near future based on its accesses in the recent past.
+
+  - two different types of locality (局部性原理分为两种)
+
+    1. temporal locality (时间局部性原理) -- recently accessed items are likely to be accessed in the near future;
+    2. spatial locality (空间局部性原理) -- items whose addresss are near one another tend to be referenced close together in time.
+
+### Focus on the Common Case
+
+  - inn making a design trade-off, favor the frequent case over the infrequent case;
+  - the common case works for power as well as for resource allocation and performance;
+  - the frequent case is often simpler and can be done faster than the infrequent case.
+
+### Amdahl's law
+
+  defines the *speedup* (加速比) that can be gained by using a particular feature
+
+  Speedup = (Performance for entire task using the enhancement when possible) / (Performance for entire task without using the enhancement)
+
+  Alternatively,
+
+  Speedup = (Execution time for entire task without using the enhancement) / (Execution time for entire task using the enhancement when possible)
+
+  Speedup tels us how much faster a task will run using the computer with the enhancement as opposed to the original computer.
+
+### The Processor Performance Equation
+
+  CPU time = CPU clock cycles for a program * Clock cycle time
+
+  CPI = (CPU clock cycles for a program) / IC
+
+  CPU time = IC * CPI * Clock cycle time
+
+  - Clock cycle time, 时钟周期;
+  - IC (instruction count) -- the number of instructions executed, 执行的指令数目;
+  - CPI (clock cycles per instruction) -- the average number of clock cycles per instruction, 平均执行一条指令所用的始终周期数.
+
+  - 
+
+  ![CPU time](http://7xrxoi.com1.z0.glb.clouddn.com/cpu_time.png)
 
 ## Putting It All Together: Performance, Price, and Power
 
 
 ## Fallacies and Pitfalls
+
+to explain some commonly held misbeliefs or misconception that we should avoid
+
+- ***Fallacies***, misbeliefs (give a counterexample)
+
+  1. Multiprocessor are a silver bullet.
+  2. Hardware enhancements that increase performance improve energy efficiency are at worst energy neutral.
+  3. Benchmarks remain valid indefinitely.
+  4. The rated mean time to failure of disk is 1,200,000 hours or almost 140 years, so disks practically never fail.
+  5. Peak performance tracks observed performance.
+
+
+- ***Pitfalls***, are generalizations of principles that are true in a limited context, easily made mistakes
+
+  1. Falling prey to Amdahl's heartbreaking law.
+  2. A single point of failure.
+  3. Fault detection can lower availability.
