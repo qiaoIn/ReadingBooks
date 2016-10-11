@@ -155,9 +155,9 @@ From the viewpoint of a system designer, there are three primary concerns about 
 3. energy and energy efficiency
 
    > Which metric is the right one for comparing prodessors: energy or power?
-
+   >
    > In general, energy is always a better metric because it is tied to a specific task and the time required for that task.
-
+   >
    > If we want to know which of two prodessors is more efficient for a given task, we should compare energy comsumption (not power) for executing the task.
 
 ### Energy and Power within a Microprocessor
@@ -196,11 +196,49 @@ From the viewpoint of a system designer, there are three primary concerns about 
 
 ## Trends in Cost
 
+> An understanding of cost and its factor is essential for computer architects to make intelligent decisions about whether or not a new feature should be included in designs where cost is an issue.
+
+disscuss the major factors that influence the cost of a computer and how these factors are changing over time
+
+### The Impact of Time, Volume, and Commoditization
+
+- Time (时间)
+
+  - learning curve (学习曲线) -- manufacturing costs decrease over time (制造成本随着时间的推移而降低)
+  - yield (成品率) -- the percentage of manufactured devices that survives the testing procedure (指成功通过测试程序的器件占所生产器件总数的百分比)
+
+
+- Volume (产量)
+
+  Increasing volumes affect cost in several ways:
+  - decrease the time needed to get down the learning curve;
+  - increase purchasing and manufacturing efficiency.
+
+
+- Commoditization (商品化、大众化)
+
+### Cost of an Integrated Circuits
+
+- A wafer (晶圆) is still tested and chopped into dies (晶片) that are packaged. (对晶圆进行测试，切割成晶片进行封装)
+
+- The cost of dies:
+
+![cost_of_dies](../images/cost_of_dies.png)
+
 
 ## Dependability (without)
 
 
 ## Measuring, Reporting, and Summarizing Performance
+
+- *response time* or *execution time* -- the time between the start and the completion of an event;
+- *throughput* -- the total amount of work done in a given time.
+
+> The only consistent and reliable measure of performance is the execution time of real programs
+
+### Benchmarks (基准测试)
+
+  **SPEC**
 
 
 ## Quantitative Principles of Computer Design
