@@ -259,7 +259,7 @@ Introduce important observations about design, as well as two equations to evalu
 
   data-level parallelism, eg. set-associative caches (组相联缓存), modern ALUs use carry-lookhead (先行进位)
 
-### Priciple of Locality
+### Principle of Locality
 
   *principle of locality*: programs tend to reuse data and instructions they have used recently (程序常常重复使用它们最近刚用过的数据和指令)
 
@@ -290,7 +290,7 @@ Introduce important observations about design, as well as two equations to evalu
 
 ### The Processor Performance Equation
 
-  CPU time = CPU clock cycles for a program * Clock cycle time
+  CPU time = CPU clock cycles for a program * 、
 
   CPI = (CPU clock cycles for a program) / IC
 
