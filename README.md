@@ -1,26 +1,28 @@
 # I walk on my way.
 
-> I come, I read, I practice, and I understanding.  
-> -- once I said, **Now** I can say
+> I come, I read, I practice, and I understanding.
 
 ## **Coursera**
 
-- [ ] Programming Language
+- - [ ] [Programming Language](./Coursera/ProgrammingLanguages/)
 
-  - [ ] Part A
+  - - [ ] [Part A](https://www.coursera.org/learn/programming-languages)
 
-  - [ ] Part B
+  - - [ ] [Part B](https://www.coursera.org/learn/programming-languages-part-b)
 
-  - [ ] Part C
+  - - [ ] [Part C](https://www.coursera.org/learn/programming-languages-part-c)
 
-- [ ] Coding the Matrix
+
+- - [ ] Coding the Matrix
 
 
 
 ## **Reading**
 
-- [ ] The Practice of Programming (程序设计实践)
+- - [ ] [The Practice of Programming](./Reading/PracticeOfProgramming/) (程序设计实践)
 
-- [ ] Structure and Interpretation of Computer Programs (SICP, 计算机程序的构造与解释)
 
-- [ ]
+- - [ ] [Structure and Interpretation of Computer Programs](./Reading/SICP/) (SICP, 计算机程序的构造与解释)
+
+
+- - [ ] Future of Code (代码的未来)
