@@ -8,7 +8,17 @@
 
 程序设计的原则就是简单清晰：
 
-> The principles of programming style are based on common sense guided by experience, not on arbitrary rules and prescriptions. Code should be clear and simple -- straightforward logic, natural expression, conventional language use, meaningful names, neat formatting, helpful comments -- and it should avoid clever tricks and unusual constructions. Consistency is important because others will find it easier to read your code, and you theirs, if you all stick to the same style.
+> The principles of programming style are based on common sense guided by experience, not on arbitrary rules and prescriptions. Code **should** be clear and simple -- straightforward logic, natural expression, conventional language use, meaningful names, neat formatting, helpful comments -- and it should avoid clever tricks and unusual constructions. Consistency is important because others will find it easier to read your code, and you theirs, if you all stick to the same style.
+
+- `straightforward logic` -- 如何将自己的思想用代码有条理地表述出来，这是我们的第一步要求，这里有一个特别重要的是，一定不要在早期就陷入细节之中，不要在刚开始着手时就想着能够写出很好很优秀的代码，因为后期我们需要重新来进行修改；就如同写文字一样，初稿只要能够清晰地将自己的思想给表述出来，让我们自己能够明白接下来准备做的是什么，如何做，我们可以使用一个抽象的思想，并不是要马上就能写出一个实际可以运行的程序，而是应该能够说清楚一件事。
+
+- `natural expression，conventional language use` -- 常用的表达式和常见用法，不使用花里胡哨的技巧，这样只是使得代码不好阅读和理解，当然这个也有“例外”，在*The C Programming Language*这本口碑很好的书里面随处可见`i++`的使用，这反而增强了程序的表达能力，减少了代码行数。(这本书，我只是粗略的翻过一些，没有很系统的学习C语言，一定得找个机会看看，之后再做评价。)
+
+- `meaningful names` -- 有一个好的名字很重要，这需要有很强的功力，[这篇微信推送](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=2649827483&idx=1&sn=228be8c6c3448a56f7ecd00e20e3ae1d&chksm=8704aa87b0732391ceca19893103f58f7aa360c815faec08a334daddbff74a62b4db724125b7&mpshare=1&scene=1&srcid=1013FED3GLSb5JApWgUpkeC2#rd)给出来很好的解释。
+
+- `neat formatting` -- 格式要清晰，不能让自己在编写完之后都不想第二次打开，自己要有一个特有的风格，但在团队合作时，要有一致的规范。
+
+- `helpful comments` -- 注释不仅是给自己看的，更是方便别人来阅读你的代码，所以要遵循一定的社区规范，要写一些有意义的注释。
 
 
 ## 命名 **Names**
@@ -100,7 +110,7 @@
 
 6. 当心副作用（**Be careful with side effects**）
 
-   > Operators like ++ have ***side effects***: besides returning a value, they also modify an underlying variable. Side effects can be extremely convenient, but they can also cause trouble because the actions of retrieving the value and updating the variable might not happen at the same time. **In C and C++, the order of execution of side effects is undefined**, so this  multiple assignment is likely to produce the wrong answer.
+   > Operators like ++ have ***side effects***: besides returning a value, they also modify an underlying variable. Side effects can be extremely convenient, but they can also cause trouble because the actions of retrieving the value and updating the variable might not happen at the same time. **In C and C++, the order of execution of side effects is undefined**, so this multiple assignment is likely to produce the wrong answer.
 
    当在一个表达式中要同时要访问某一个变量和给这个变量进行赋值时，就会出现这样的问题：
 
