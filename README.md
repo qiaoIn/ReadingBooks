@@ -24,8 +24,10 @@
 
 - - [ ] [Structure and Interpretation of Computer Programs](./Reading/SICP/) (SICP, 计算机程序的构造与解释)
 
+  - - [ ] Fixed Point (不动点) 
+  
   - - [ ] Church Number (邱奇数)
-
+  
 
 - - [ ] Future of Code (代码的未来)
 
