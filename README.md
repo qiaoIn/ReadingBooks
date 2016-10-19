@@ -16,8 +16,10 @@
 - - [ ] Coding the Matrix
 
 
-
 ## **Reading**
+
+> **[如何找到一本好书来看？](./Reading/how-to-find-a-book-to-read.md)**
+
 
 - - [ ] [The Practice of Programming](./Reading/PracticeOfProgramming/) (程序设计实践)
 
