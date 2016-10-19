@@ -18,7 +18,7 @@
 
 ## **Reading**
 
-> **[如何找到一本好书来看？](./Reading/how-to-find-a-book-to-read.md)**
+> **[如何找到一本好书来看？](./why-do-i-have-this-motivation/how-to-find-a-book-to-read.md)**
 
 
 - - [ ] [The Practice of Programming](./Reading/PracticeOfProgramming/) (程序设计实践)
@@ -26,10 +26,10 @@
 
 - - [ ] [Structure and Interpretation of Computer Programs](./Reading/SICP/) (SICP, 计算机程序的构造与解释)
 
-  - - [ ] Fixed Point (不动点) 
-  
+  - - [ ] Fixed Point (不动点)
+
   - - [ ] Church Number (邱奇数)
-  
+
 
 - - [ ] Future of Code (代码的未来)
 
