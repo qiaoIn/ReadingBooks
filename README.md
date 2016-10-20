@@ -16,6 +16,10 @@
 - - [ ] Coding the Matrix
 
 
+- - [ ] Machine Learning (by Andrew Ng)
+
+
+
 ## **Reading**
 
 > **[如何找到一本好书来看？](./why-do-i-have-this-motivation/how-to-find-a-book-to-read.md)**
