@@ -22,7 +22,7 @@
 
 ## **Reading**
 
-> **[如何找到一本好书来看？](./why-do-i-have-this-motivation/how-to-find-a-book-to-read.md)**
+> **[如何找到一本好书来看？](./Motivation/how-to-find-a-book-to-read.md)**
 
 
 - - [ ] [The Practice of Programming](./Reading/PracticeOfProgramming/) (程序设计实践)
@@ -33,6 +33,12 @@
   - - [ ] Fixed Point (不动点)
 
   - - [ ] Church Number (邱奇数)
+
+
+- - [ ] [Learning Python](./Reading/LearningPython/) (Python 学习手册)
+
+
+- - [ ] [Unix Network Programming, Volume 1: The Sockets Networking API] (./Reading/UnixNetwork/Volume1/) (Unix 网络编程 卷1: 套接字联网 API)
 
 
 - - [ ] Future of Code (代码的未来)
