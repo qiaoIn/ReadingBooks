@@ -36,10 +36,18 @@
 
 
 - - [ ] [Learning Python](./Reading/LearningPython/) (Python 学习手册)
+ 
+  - - [ ] 以 [Issues](https://github.com/qiaoIn/on-the-way/issues?q=is%3Aissue+label%3Apython) 来进行跟踪学习
+  
+  - - [ ] 
 
 
 - - [ ] [Unix Network Programming, Volume 1: The Sockets Networking API] (./Reading/UnixNetwork/Volume1/) (Unix 网络编程 卷1: 套接字联网 API)
 
+  - - [ ] 在巩固了 C 语言基础之后再来看这本书
+
+  - - [ ] **CLOSED** 自己现在的只是储备还可不懂这本书，惭愧
+  
 
 - - [ ] Future of Code (代码的未来)
 
