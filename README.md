@@ -6,8 +6,10 @@
 
 - - [ ] [Programming Language](./Coursera/ProgrammingLanguages/)
 
-  - - [ ] [Part A](https://www.coursera.org/learn/programming-languages)
-
+  - - [ ] [Part A](https://www.coursera.org/learn/programming-languages) 
+  
+    TODO 写一个关于 `StandardML` 的总结，当然要结合 `PartA` 的讲解，然后还有习题上的一些问题的解释
+  
   - - [ ] [Part B](https://www.coursera.org/learn/programming-languages-part-b)
 
   - - [ ] [Part C](https://www.coursera.org/learn/programming-languages-part-c)
@@ -72,4 +74,11 @@
     
     - - [ ] TODO 第二天：高级自定义
   
-  - - [ ] 
+  - - [ ] [Org mode](http://orgmode.org/) 
+  
+    > Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+    
+    - - [ ] [Some tips for learning Org Mode for Emacs](http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)
+    
+    - - [ ] 
+  
