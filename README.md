@@ -58,3 +58,18 @@
   - - [ ] GC (Garbage Collection, 垃圾回收)
 
   - - [ ] Closure (闭包)
+
+
+
+## **Hacking!**
+
+
+- - [ ] Emacs: "The Editor of a Lifetime"
+
+  - - [ ] [Spacemacs Rocks 第二季](https://github.com/emacs-china/Spacemacs-rocks) Master Emacs in 21 Days
+  
+    - - [x] DONE 第一天：准备开始 <2016-12-01 16:48:16>
+    
+    - - [ ] TODO 第二天：高级自定义
+  
+  - - [ ] 
