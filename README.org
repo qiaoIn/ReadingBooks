@@ -1,10 +1,9 @@
-#+TITLE: Learning to learn, on the way
+#+TITLE: Learning how to learn, I walk on my way.
 #+AUTHOR: qiaoin
 #+EMAIL: qiao.liubing@gmail.com
 #+OPTIONS: toc:3 num:nil
 #+STARTUP: showall
 
-* I walk on my way.
 
 #+BEGIN_QUOTE
 I come, I read, I practice, and I understanding.
