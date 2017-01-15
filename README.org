@@ -1,0 +1,66 @@
+#+TITLE: Learning to learn, on the way
+#+AUTHOR: qiaoin
+#+EMAIL: qiao.liubing@gmail.com
+#+OPTIONS: toc:3 num:nil
+#+STARTUP: showall
+
+* I walk on my way.
+
+#+BEGIN_QUOTE
+I come, I read, I practice, and I understanding.
+#+END_QUOTE
+
+
+** *Coursera*
+
+- [[./Coursera/ProgrammingLanguages/][Programming Language]] 
+  + [[https://www.coursera.org/learn/programming-languages][Part A]] 
+    *TODO* 写一个关于 =StandardML= 的总结，当然要结合 =PartA= 所讲解的内容，并且还有习题的说明
+  + [[https://www.coursera.org/learn/programming-languages-part-b][Part B]]
+  + [[https://www.coursera.org/learn/programming-languages-part-c][Part C]] 
+- Coding the Matrix
+- Machine Learning (by Andrew Ng)
+
+
+** *Reading*
+
+#+BEGIN_QUOTE
+[[./Motivation/how-to-find-a-book-to-read.md][如何找到一本好书来看？]] 
+#+END_QUOTE
+
+- [[./Reading/PracticeOfProgramming/][The Practice of Programming]] (程序设计实践)
+- [[./Reading/SICP/][Structure and Interpretation of Computer Programs]] (SICP, 计算机程序的构造与解释)
+  + Fixed Point (不动点)
+  + Church Number (邱奇数)
+- [[./Reading/LearningPython/][Python 学习手册]]
+  + 以 [[https://github.com/qiaoIn/on-the-way/issues?q=is%3Aissue+label%3Apython][Issues]] 来进行跟踪学习
+  + 
+- Go 语言学习笔记 (雨痕 著)
+- JavaSript DOM 编程艺术 (第2版)
+- Clojure 程序设计
+- 编程珠玑
+- [[./Reading/UnixNetwork/Volume1/][Unix Network Programming, Volume 1: The Sockets Networking API]] (Unix 网络编程 卷1: 套接字联网 API)
+  + 在巩固了 C 语言基础之后再来看这本书
+  + *CLOSED* 自己现在的知识储备还看不懂这本书，惭愧
+- Future of Code (代码的未来)
+  + DSL (Domain Specific Language，特定领域语言)
+  + Metaprogramming (元编程)
+  + GC (Garbage Collection, 垃圾回收)
+  + Closure (闭包)
+- Linux 内核设计与实现 第3版
+- 深度探索Linux操作系统：系统构建和原理解析
+- Linux 内核完全注释
+
+
+** *Hacking!*
+
+- Emacs: "The Editor of a Lifetime"
+  + [[https://github.com/emacs-china/Spacemacs-rocks][Spacemacs Rocks 第二季]] Master Emacs in 21 Days
+    1. *DONE* 第一天：准备开始 <2016-12-01 16:48:16>
+    2. *TODO* 第二天：高级自定义
+  + [[http://orgmode.org/][Org mode]]
+    #+BEGIN_QUOTE
+    Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+    #+END_QUOTE
+    + *TODO* [[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Some tips for learning Org Mode for Emacs]]
+    + 
