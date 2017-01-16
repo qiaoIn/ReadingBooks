@@ -19,6 +19,7 @@ I come, I read, I practice, and I understanding.
   + [[https://www.coursera.org/learn/programming-languages-part-c][Part C]] 
 - Coding the Matrix
 - Machine Learning (by Andrew Ng)
+- [ ] [[https://zhuanlan.zhihu.com/json-tutorial][从零开始的 JSON 库教程]] 
 
 
 ** *Reading*
