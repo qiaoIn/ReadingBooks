@@ -6,20 +6,20 @@
 
 
 #+BEGIN_QUOTE
-I come, I read, I practice, and I understand.
+I come, I read, I practice, and I understanding.
 #+END_QUOTE
 
 
 ** *On-Line-Course*
 
 - [[./Coursera/ProgrammingLanguages/][Programming Language]] 
-  + [ ] [[https://www.coursera.org/learn/programming-languages][Part A]] 
+  + [[https://www.coursera.org/learn/programming-languages][Part A]] 
     - *TODO* 写一个关于 =StandardML= 的总结，当然要结合 =PartA= 所讲解的内容，并且还有习题的说明
   + [[https://www.coursera.org/learn/programming-languages-part-b][Part B]]
   + [[https://www.coursera.org/learn/programming-languages-part-c][Part C]] 
 - Coding the Matrix
 - Machine Learning (by Andrew Ng)
-- [ ] [[https://zhuanlan.zhihu.com/json-tutorial][从零开始的 JSON 库教程]] 
+- [[https://zhuanlan.zhihu.com/json-tutorial][从零开始的 JSON 库教程]] 
 
 
 ** *Reading*
