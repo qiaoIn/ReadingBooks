@@ -6,14 +6,14 @@
 
 
 #+BEGIN_QUOTE
-I come, I read, I practice, and I understanding.
+I come, I read, I practice, and I understand.
 #+END_QUOTE
 
 
 ** *On-Line-Course*
 
 - [[./Coursera/ProgrammingLanguages/][Programming Language]] 
-  + [[https://www.coursera.org/learn/programming-languages][Part A]] 
+  + [ ] [[https://www.coursera.org/learn/programming-languages][Part A]] 
     - *TODO* 写一个关于 =StandardML= 的总结，当然要结合 =PartA= 所讲解的内容，并且还有习题的说明
   + [[https://www.coursera.org/learn/programming-languages-part-b][Part B]]
   + [[https://www.coursera.org/learn/programming-languages-part-c][Part C]] 
@@ -60,12 +60,15 @@ I come, I read, I practice, and I understanding.
     2. *DONE* 第二天：高级自定义 <2017-01-16 Mon 13:41:20>
     3. *DONE* 第三天：配置文件模块化（上）
     4. *DONE* 第四天：配置文件模块化（下）<2017-01-16 Mon 22:00:00>
-    5. *TODO* 第五天：打造前端开发神器 <2017-01-18 Wed 22:00:00>
-       这一天的内容可能于我自己被没有什么用处，我根本就没怎么写过 Web 相关，好吧，那就在这里挖个坑吧，*TODO* 学习 HTML/CSS/JavaScript 来建站
-    6. 
+    5. *DONE* 第五天：打造前端开发神器 <2017-01-18 Wed 13:32:12>
+       这一天的内容可能于我自己被没有什么用处，我根本就没怎么写过 Web 相关，好吧，那就在这里挖个坑吧， *TODO* 学习 HTML/CSS/JavaScript 来建站
+    6. *TODO* 第六天：代码片段与语法检查器 <2017-01-18 Wed 17:00:00>
+    7. 
   + [[http://orgmode.org/][Org mode]]
     #+BEGIN_QUOTE
     Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
     #+END_QUOTE
     + *TODO* [[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Some tips for learning Org Mode for Emacs]]
-    + 
+    + *TODO* [[http://members.optusnet.com.au/~charles57/GTD/][Emacs, org-mode and Getting Things Done (GTD) articles by Charles Cave]]
+      - *maybe* translate some articles in this site
+      - especially, [[http://members.optusnet.com.au/~charles57/GTD/orgmode.html][Using Emacs org-mode for GTD]] and [[http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html][How I use Emacs and Org-mode to implement GTD]] 
