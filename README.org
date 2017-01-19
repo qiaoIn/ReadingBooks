@@ -68,7 +68,9 @@ I come, I read, I practice, and I understanding.
     8. *DONE* 第八天：Cask 介绍与实践 <2017-01-18 Wed 22:09:24> \\
        这一天的笔记我没有整理，也是觉得自己还没有使用这个进行管理的需要
     9. *TODO* 第九天：Macro 与 Use-package <2017-01-18 Wed 22:11:12>
-    10. 
+    10. *TODO* 第十天：Company-mode 与 auto-completion <2017-01-19 Thu 23:39:36>
+    11. 
+
   + [[http://orgmode.org/][Org mode]]
     #+BEGIN_QUOTE
     Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
