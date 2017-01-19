@@ -78,4 +78,8 @@ I come, I read, I practice, and I understanding.
     + *TODO* [[http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/][Some tips for learning Org Mode for Emacs]]
     + *TODO* [[http://members.optusnet.com.au/~charles57/GTD/][Emacs, org-mode and Getting Things Done (GTD) articles by Charles Cave]]
       - *maybe* translate some articles in this site
-      - especially, [[http://members.optusnet.com.au/~charles57/GTD/orgmode.html][Using Emacs org-mode for GTD]] and [[http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html][How I use Emacs and Org-mode to implement GTD]] 
+      - especially, [[http://members.optusnet.com.au/~charles57/GTD/orgmode.html][Using Emacs org-mode for GTD]] and [[http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html][How I use Emacs and Org-mode to implement GTD]]
+  
+  + [[https://www.gnu.org/software/emacs/manual/html_mono/eintr.html][Emacs Lisp]] 
+    + 简单了解，M-x info -> Emacs Lisp Intro
+    + 通过阅读 [[https://github.com/jwiegley/use-package][use-package]] 源码来进行 elisp 的学习
