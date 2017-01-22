@@ -67,9 +67,11 @@ I come, I read, I practice, and I understanding.
        这一天的视频内容基本跳过去了，因为感觉自己不会重回使用 VIM 的模式
     8. *DONE* 第八天：Cask 介绍与实践 <2017-01-18 Wed 22:09:24> \\
        这一天的笔记我没有整理，也是觉得自己还没有使用这个进行管理的需要
-    9. *TODO* 第九天：Macro 与 Use-package <2017-01-18 Wed 22:11:12>
+    9. *DONE* 第九天：Macro 与 Use-package <2017-01-22 Sun 23:10:16>
     10. *TODO* 第十天：Company-mode 与 auto-completion <2017-01-19 Thu 23:39:36>
-    11. 
+    11. *TODO* Day11 & Day12 & Day13 <2017-01-22 Sun 23:20:00> \\
+        这几天的视频都已经看完，只是笔记还没有整理，要认真整理
+    12. 
 
   + [[http://orgmode.org/][Org mode]]
     #+BEGIN_QUOTE
